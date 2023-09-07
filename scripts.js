@@ -5,6 +5,11 @@ let books
 let bookList = books
 let bookpage = 1
 
+// Check if 'books' is defined and is an array
+if (bookList||!Array.isArray(bookList)){
+    throw new Error('Source required')
+}
+
 matches = books
 page = 1;
 
