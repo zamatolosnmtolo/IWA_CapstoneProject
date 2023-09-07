@@ -1,14 +1,3 @@
-import { BOOKS_PER_PAGE, authors, genres,books as allBooks  } from "./data";
-
-// Intialize variables 
-let bookList =
-let bookpage = 1
-
-// Check if 'books' is defined and is an array
-if (bookList||!Array.isArray(bookList)){
-    throw new Error('Source required')
-}
-
 matches = books
 page = 1;
 
