@@ -1,8 +1,7 @@
 import { BOOKS_PER_PAGE, authors, genres,books as allBooks  } from "./data";
 
 // Intialize variables 
-let books
-let bookList = books
+let bookList =
 let bookpage = 1
 
 // Check if 'books' is defined and is an array
